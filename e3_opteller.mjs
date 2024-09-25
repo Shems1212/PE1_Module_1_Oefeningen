@@ -5,9 +5,9 @@ const userInput = readline.createInterface({input, output});
 // Einde van userInput voorbereiden
 
 
+let val = parseFloat (await userInput.question('First number: '));
+val +=parseFloat (await userInput.question('Second number: '));
 
-// Voeg hier je eigen code in
-
-
+console.log(val)
 
 process.exit();
